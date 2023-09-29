@@ -1,7 +1,7 @@
 {
   "name": "@gsmeira/nuxt-basic-auth",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple and flexible http authentication for Nuxt 3 apps",
   "license": "MIT",
   "repository": {
