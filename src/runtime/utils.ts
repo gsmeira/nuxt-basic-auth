@@ -1,6 +1,6 @@
 import type { RequestHeaders } from 'h3'
 import { isEmpty as isEmptyObj } from 'lodash-es'
-import type { BasicAuthCredential, BasicAuthCredentialOptions } from './module'
+import type { BasicAuthCredential, BasicAuthCredentialOptions } from '../module'
 
 export function mergeCredentialLimits(credentials: BasicAuthCredential[], limit: Record<string, BasicAuthCredentialOptions>) {
   for (const user in limit) {

@@ -6,7 +6,7 @@ import {
   isSuperUser,
   mergeCredentialLimits,
   parseCredentials,
-} from '../utils'
+} from './utils'
 import { useRuntimeConfig } from '#imports'
 
 export default defineEventHandler((event) => {
