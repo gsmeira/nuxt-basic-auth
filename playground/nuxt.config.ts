@@ -4,13 +4,8 @@ export default defineNuxtConfig({
   modules: ['../src/module'],
   basicAuth: {
     enabled: process.env.BASIC_AUTH_ENABLED === 'true',
-    credentials: process.env.BASIC_AUTH_CREDENTIALS,
-    limit: {
-      admin: {
-        to: '^(\/)?admin(\/(.*))?',
-        skip: '^(\/)?test(\/)?',
-      },
-    },
+    user: process.env.BASIC_AUTH_USER,
+    pass: process.env.BASIC_AUTH_PASS,
   },
   devtools: { enabled: true },
 })
