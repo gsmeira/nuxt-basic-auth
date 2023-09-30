@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/gsmeira/nuxt-basic-auth/compare/v0.0.2...v0.0.3)
+
+### 🚀 Enhancements
+
+- Simplify the hole module removing test features ([e5cb109](https://github.com/gsmeira/nuxt-basic-auth/commit/e5cb109))
+
+### ❤️ Contributors
+
+- Gustavo Meireles ([@gsmeira](http://github.com/gsmeira))
+
 ## v0.0.2
 
 [compare changes](https://github.com/gsmeira/nuxt-basic-auth/compare/v0.0.1...v0.0.2)
